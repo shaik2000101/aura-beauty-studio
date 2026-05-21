@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Tags -->
+    <title>Aura Beauty Studio | Professional Makeup Artist & Hairstyling Portfolio</title>
+    <meta name="description" content="Luxury bridal makeup, high-definition glam looks, premium hairstyling, and professional nail art. Book your premium beauty experience at Aura Studio.">
+    <meta name="keywords" content="bridal makeup, party makeup, hairstyling, beauty studio, makeup artist, nail art, luxury salon, glam makeup">
+    <meta name="author" content="Aura Beauty Studio">
+    
+    <!-- Open Graph (Facebook/Instagram/LinkedIn) -->
+    <meta property="og:title" content="Aura Beauty Studio | Luxury Makeup & Hair Artistry">
+    <meta property="og:description" content="Stunning professional beauty services. Elevating your natural beauty with premium techniques and organic elegance.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1600&auto=format&fit=crop">
+    <meta property="og:url" content="https://aurabeautystudio.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ==========================================
+     * STICKY HEADER & NAVBAR
+     * ========================================== -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span>✦</span> AURA
+            </a>
+            
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#contact" class="btn btn-primary header-cta">Book Now</a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+     * HERO SECTION
+     * ========================================== -->
+    <section class="hero-section" id="home">
+        <div class="hero-bg-overlay" style="background-image: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1600&auto=format&fit=crop');"></div>
+        <div class="hero-overlay"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-pretitle">Luxury Beauty Artistry</span>
+                <h1 class="hero-title">Professional Beauty & <br><span>Makeup Services</span></h1>
+                <p class="hero-subtitle">Bridal • Party Makeup • Hairstyling • Glam Looks. Tailored to highlight your unique features and illuminate your natural radiance.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Book Appointment <span class="btn-icon">→</span></a>
+                    <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Down indicator -->
+        <div class="scroll-down" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+            <span>Scroll</span>
+            <div class="scroll-down-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+     * ABOUT SECTION
+     * ========================================== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                
+                <!-- About Image Column -->
+                <div class="about-img-container reveal">
+                    <div class="about-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1000&auto=format&fit=crop" alt="Aura Beauty Artist at work" class="about-img">
+                    </div>
+                    <div class="about-img-frame"></div>
+                    
+                    <!-- Circular badge overlay -->
+                    <div class="about-badge glass">
+                        <span class="num">8+</span>
+                        <span class="lbl">Years of<br>Glam</span>
+                    </div>
+                </div>
+                
+                <!-- About Info Column -->
+                <div class="about-info reveal" style="transition-delay: 0.15s;">
+                    <span class="section-subtitle">The Artist Behind Aura</span>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">Crafting Elegance & Redefining Beauty</h2>
+                    
+                    <p class="about-quote">"True beauty shines when you feel confident, radiant, and unapologetically yourself."</p>
+                    
+                    <p class="about-text">
+                        Welcome to Aura Beauty Studio. Founded by leading editorial makeup artist Isabella Sterling, our studio specializes in creating luxury, high-end bridal transformations and editorial fashion makeovers. 
+                    </p>
+                    <p class="about-text">
+                        With over eight years of experience working with top designers, brides, and photographers, Isabella uses award-winning cosmetic formulas and meticulous attention to detail to design styles that photograph flawlessly and last all night.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">✦</div>
+                            <div>
+                                <h3 class="about-feature-title">Premium Products</h3>
+                                <p class="about-feature-desc">Using exclusive luxury brands like Chanel, Dior, and Charlotte Tilbury.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">✦</div>
+                            <div>
+                                <h3 class="about-feature-title">Mobile Glam</h3>
+                                <p class="about-feature-desc">On-location makeup services tailored for weddings and editorial shoots.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+     * SERVICES SECTION
+     * ========================================== -->
+    <section class="section" id="services" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Menu</span>
+                <h2 class="section-title">Luxury Beauty Treatments</h2>
+                <p class="section-desc">Meticulously curated makeup and styling services designed to deliver a flawless, high-end experience.</p>
+            </div>
+            
+            <div class="services-grid">
+                
+                <!-- Card 1: Bridal Makeup -->
+                <div class="service-card reveal">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1610173827002-62c0f1f05d04?q=80&w=1000&auto=format&fit=crop" alt="Bridal Makeup Service" class="service-img">
+                        <span class="service-price-tag glass">$299</span>
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-title">Bridal Makeup</h3>
+                        <p class="service-desc">Complete luxury bridal transformation including pre-wedding skin consulting, custom lashes, and airbrush contouring.</p>
+                        <button class="service-btn" onclick="prefillBooking('Bridal Makeup')">Book This Service <span>→</span></button>
+                    </div>
+                </div>
+
+                <!-- Card 2: HD Makeup -->
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1000&auto=format&fit=crop" alt="HD Glam Makeup Service" class="service-img">
+                        <span class="service-price-tag glass">$180</span>
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-title">HD Glam Makeup</h3>
+                        <p class="service-desc">High-definition, photography-ready glam optimized for red carpet events, photo shoots, and professional portfolios.</p>
+                        <button class="service-btn" onclick="prefillBooking('HD Glam Makeup')">Book This Service <span>→</span></button>
+                    </div>
+                </div>
+
+                <!-- Card 3: Party Makeup -->
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1000&auto=format&fit=crop" alt="Party / Glam Makeup Service" class="service-img">
+                        <span class="service-price-tag glass">$120</span>
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-title">Party Makeup</h3>
+                        <p class="service-desc">Elegant, lightweight evening makeup designed to last all night for cocktails, birthdays, or celebrations.</p>
+                        <button class="service-btn" onclick="prefillBooking('Party Makeup')">Book This Service <span>→</span></button>
+                    </div>
+                </div>
+
+                <!-- Card 4: Hairstyling -->
+                <div class="service-card reveal">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop" alt="Luxury Hairstyling Service" class="service-img">
+                        <span class="service-price-tag glass">$95</span>
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-title">Hairstyling</h3>
+                        <p class="service-desc">From elegant Hollywood waves and high buns to intricate braided details customized to match your face structure.</p>
+                        <button class="service-btn" onclick="prefillBooking('Hairstyling')">Book This Service <span>→</span></button>
+                    </div>
+                </div>
+
+                <!-- Card 5: Saree Draping -->
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1000&auto=format&fit=crop" alt="Traditional Saree Draping & Styling" class="service-img">
+                        <span class="service-price-tag glass">$70</span>
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-title">Saree Draping</h3>
+                        <p class="service-desc">Perfect pleating and professional draping techniques for classic, modern, or regional bridal styles.</p>
+                        <button class="service-btn" onclick="prefillBooking('Saree Draping')">Book This Service <span>→</span></button>
+                    </div>
+                </div>
+
+                <!-- Card 6: Nail Art -->
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=1000&auto=format&fit=crop" alt="Luxury Nail Art Service" class="service-img">
+                        <span class="service-price-tag glass">$85</span>
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-title">Luxury Nail Art</h3>
+                        <p class="service-desc">Premium acrylics, extensions, gel overlay, and custom hand-painted luxury art (chrome, pearls, foils).</p>
+                        <button class="service-btn" onclick="prefillBooking('Luxury Nail Art')">Book This Service <span>→</span></button>
+                    </div>
+                </div>
+
+                <!-- Card 7: Skin Care -->
+                <div class="service-card reveal">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop" alt="Beauty Skin Care Treatment" class="service-img">
+                        <span class="service-price-tag glass">$110</span>
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-title">Radiant Facial Treatment</h3>
+                        <p class="service-desc">Custom organic facial massage, gold-infused serums, and hydration therapy to prepare your skin for flawless makeup prep.</p>
+                        <button class="service-btn" onclick="prefillBooking('Radiant Skin Care')">Book This Service <span>→</span></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+     * PORTFOLIO SECTION
+     * ========================================== -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Masterpieces</span>
+                <h2 class="section-title">The Artistry Gallery</h2>
+                <p class="section-desc">Browse through our client transformations, editorial fashion stories, and high-fashion hair updates.</p>
+            </div>
+            
+            <!-- BEFORE / AFTER INTERACTIVE SLIDER -->
+            <div class="reveal">
+                <h3 class="transformation-label-heading">Interactive Transformation Showcase</h3>
+                <div class="transformation-showcase">
+                    <div class="before-after-slider" id="ba-slider">
+                        <!-- Before Picture (Background) -->
+                        <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?q=80&w=800&auto=format&fit=crop" alt="Before Glam Face Look" class="slider-img img-before">
+                        <span class="slider-label label-before">Natural / Before</span>
+                        
+                        <!-- After Picture (Overlay) -->
+                        <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop" alt="After Glam Luxury Makeup" class="slider-img img-after" id="ba-after-img">
+                        <span class="slider-label label-after">Glam / After</span>
+                        
+                        <!-- Drag Slider Handle -->
+                        <div class="slider-handle" id="ba-handle">
+                            <div class="slider-handle-button">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="m12 19-7-7 7-7M19 12H5"/>
+                                    <path d="m12 5 7 7-7 7M5 12h14"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Category Selectors -->
+            <div class="portfolio-tabs reveal">
+                <button class="portfolio-tab active" data-filter="all">All Looks</button>
+                <button class="portfolio-tab" data-filter="bridal">Bridal</button>
+                <button class="portfolio-tab" data-filter="glam">Glam Looks</button>
+                <button class="portfolio-tab" data-filter="hair">Hairstyling</button>
+                <button class="portfolio-tab" data-filter="nails">Nail Art</button>
+            </div>
+            
+            <!-- Portfolio Masonry Grid -->
+            <div class="portfolio-grid reveal" style="transition-delay: 0.1s;">
+                
+                <!-- Item 1: Bridal -->
+                <div class="portfolio-item" data-category="bridal" onclick="openLightbox(0)">
+                    <img src="https://images.unsplash.com/photo-1610173827002-62c0f1f05d04?q=80&w=800&auto=format&fit=crop" alt="Elegant Bridal Close-up Look" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-item-category">Bridal Artistry</span>
+                        <h4 class="portfolio-item-title">Warm Sunset Rose Bride</h4>
+                        <span class="portfolio-item-link">Expand View ✦</span>
+                    </div>
+                </div>
+
+                <!-- Item 2: Glam (Tall Item) -->
+                <div class="portfolio-item tall" data-category="glam" onclick="openLightbox(1)">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop" alt="Stunning High Fashion Editorial Makeup" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-item-category">High Glam</span>
+                        <h4 class="portfolio-item-title">Editorial Dewy Skin</h4>
+                        <span class="portfolio-item-link">Expand View ✦</span>
+                    </div>
+                </div>
+
+                <!-- Item 3: Hairstyling -->
+                <div class="portfolio-item" data-category="hair" onclick="openLightbox(2)">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=800&auto=format&fit=crop" alt="Elegant Hair Updo with Accessories" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-item-category">Hairstyling</span>
+                        <h4 class="portfolio-item-title">Classic Hollywood Waves</h4>
+                        <span class="portfolio-item-link">Expand View ✦</span>
+                    </div>
+                </div>
+
+                <!-- Item 4: Bridal -->
+                <div class="portfolio-item" data-category="bridal" onclick="openLightbox(3)">
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=800&auto=format&fit=crop" alt="Elegant Traditional Glam Bride" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-item-category">Bridal Artistry</span>
+                        <h4 class="portfolio-item-title">Royal Velvet Bridal Glow</h4>
+                        <span class="portfolio-item-link">Expand View ✦</span>
+                    </div>
+                </div>
+
+                <!-- Item 5: Nails -->
+                <div class="portfolio-item" data-category="nails" onclick="openLightbox(4)">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=800&auto=format&fit=crop" alt="Chic Minimal Nails with Rose Gold Art" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-item-category">Nail Artistry</span>
+                        <h4 class="portfolio-item-title">Rose-Gold Pearl Acrylics</h4>
+                        <span class="portfolio-item-link">Expand View ✦</span>
+                    </div>
+                </div>
+
+                <!-- Item 6: Glam -->
+                <div class="portfolio-item" data-category="glam" onclick="openLightbox(5)">
+                    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop" alt="Vibrant Bold Eyes Evening Makeup" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-item-category">High Glam</span>
+                        <h4 class="portfolio-item-title">Midnight Sultry Smoky Eye</h4>
+                        <span class="portfolio-item-link">Expand View ✦</span>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="lightbox-modal">
+        <div class="lightbox-content-wrapper">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <button class="lightbox-nav lightbox-prev" id="lightbox-prev">&#8249;</button>
+            
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+            
+            <button class="lightbox-nav lightbox-next" id="lightbox-next">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- ==========================================
+     * TESTIMONIALS SECTION
+     * ========================================== -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            
+            <div class="section-header reveal">
+                <span class="section-subtitle">Kind Words</span>
+                <h2 class="section-title">Client Love Stories</h2>
+                <p class="section-desc">Read about the premium luxury experience our brides and clients have enjoyed with Aura.</p>
+            </div>
+            
+            <div class="testimonials-container reveal" style="transition-delay: 0.15s;">
+                <div class="testimonials-wrapper" id="testimonials-wrapper">
+                    
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card glass">
+                            <div class="testimonial-rating">★★★★★</div>
+                            <p class="testimonial-quote">
+                                "Choosing Isabella for my wedding was the best decision ever! She created the exact soft, glowing bridal look I wanted. It felt so incredibly light on my skin and stayed pristine through hours of dancing!"
+                            </p>
+                            <div class="testimonial-client">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop" alt="Client Sophia Miller" class="testimonial-avatar">
+                                <span class="testimonial-name">Sophia Sterling-Miller</span>
+                                <span class="testimonial-role">Radiant Bride</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card glass">
+                            <div class="testimonial-rating">★★★★★</div>
+                            <p class="testimonial-quote">
+                                "Isabella is a pure artist. She did my makeup and hair styling for my company's gala, and I received endless compliments. Her aesthetic is super premium and she knows exactly what suits your face."
+                            </p>
+                            <div class="testimonial-client">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop" alt="Client David Vance" class="testimonial-avatar">
+                                <span class="testimonial-name">Victoria Vance</span>
+                                <span class="testimonial-role">Gala Client</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card glass">
+                            <div class="testimonial-rating">★★★★★</div>
+                            <p class="testimonial-quote">
+                                "The level of professionalism at Aura is exceptional. The booking process was seamless, and the trial session was helpful in testing colors. My nails and makeup turned out absolutely flawless!"
+                            </p>
+                            <div class="testimonial-client">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150&auto=format&fit=crop" alt="Client Elena Rostova" class="testimonial-avatar">
+                                <span class="testimonial-name">Elena Rostova</span>
+                                <span class="testimonial-role">Bridal Client</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Dot navigation pointers -->
+                <div class="testimonial-dots" id="testimonial-dots">
+                    <button class="testimonial-dot active" data-slide="0"></button>
+                    <button class="testimonial-dot" data-slide="1"></button>
+                    <button class="testimonial-dot" data-slide="2"></button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ==========================================
+     * CONTACT / LEAD BOOKING SECTION
+     * ========================================== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Contact Info Panel -->
+                <div class="contact-info-panel reveal">
+                    <div class="contact-header-text">
+                        <span class="section-subtitle">Secure Your Spot</span>
+                        <h3>Let's Create Your Dream Look</h3>
+                        <p>Have an upcoming wedding, photo shoot, or special celebration? Fill out the reservation form, or message us directly via WhatsApp for a quick response.</p>
+                    </div>
+                    
+                    <div class="contact-details-list">
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon">💬</div>
+                            <div class="contact-detail-text">
+                                <span class="contact-detail-title">WhatsApp / Call</span>
+                                <a href="https://wa.me/15550199?text=Hi%20Aura%20Studio!%20I'd%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" class="contact-detail-value">+1 (555) 0199</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon">✉</div>
+                            <div class="contact-detail-text">
+                                <span class="contact-detail-title">Email Inquiry</span>
+                                <a href="mailto:appointments@aurastudio.com" class="contact-detail-value">appointments@aurastudio.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon">📍</div>
+                            <div class="contact-detail-text">
+                                <span class="contact-detail-title">Our Studio</span>
+                                <span class="contact-detail-value">742 Rosewood Ave, Suite B, New York</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social-channels">
+                        <h4>Follow Our Glam Journey</h4>
+                        <div class="contact-social-icons">
+                            <a href="https://instagram.com" target="_blank" class="contact-social-btn" aria-label="Instagram">📸</a>
+                            <a href="https://pinterest.com" target="_blank" class="contact-social-btn" aria-label="Pinterest">📌</a>
+                            <a href="https://wa.me/15550199" target="_blank" class="contact-social-btn" aria-label="WhatsApp">💬</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lead Booking Form -->
+                <div class="booking-form-wrapper reveal" style="transition-delay: 0.15s;">
+                    <!-- Booking Form Title -->
+                    <h3 class="booking-form-title">Reserve Your Session</h3>
+                    
+                    <form id="booking-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" class="form-input" id="client-name" placeholder=" " required>
+                                <label class="form-label" for="client-name">Your Full Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-input" id="client-phone" placeholder=" " required>
+                                <label class="form-label" for="client-phone">Phone Number</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select class="form-input" id="interested-service" required>
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="Bridal Makeup">Bridal Makeup ($299)</option>
+                                    <option value="HD Glam Makeup">HD Glam Makeup ($180)</option>
+                                    <option value="Party Makeup">Party Makeup ($120)</option>
+                                    <option value="Hairstyling">Hairstyling ($95)</option>
+                                    <option value="Saree Draping">Saree Draping ($70)</option>
+                                    <option value="Luxury Nail Art">Luxury Nail Art ($85)</option>
+                                    <option value="Radiant Skin Care">Radiant Skin Care ($110)</option>
+                                </select>
+                                <label class="form-label" for="interested-service">Interested Service</label>
+                                <div class="select-arrow">▼</div>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" class="form-input" id="preferred-date" placeholder=" " required>
+                                <label class="form-label" for="preferred-date">Preferred Date</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <textarea class="form-input" id="booking-message" rows="3" placeholder=" "></textarea>
+                            <label class="form-label" for="booking-message">Special Notes / Special Requests (Optional)</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary booking-form-submit">Confirm Booking & WhatsApp 💬</button>
+                    </form>
+                    
+                    <!-- Success Overlay -->
+                    <div class="form-success-overlay" id="form-success-overlay">
+                        <div class="success-icon">✓</div>
+                        <h4 class="success-title">Request Generated!</h4>
+                        <p class="success-text">We are redirecting you to WhatsApp to complete your booking message. If it doesn't open automatically, click below.</p>
+                        <a href="#" class="btn btn-primary" id="success-wa-btn" target="_blank">Send Message Directly</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+     * FAQ ACCORDION SECTION
+     * ========================================== -->
+    <section class="section" id="faq" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            
+            <div class="section-header reveal">
+                <span class="section-subtitle">Questions & Answers</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-desc">Everything you need to know about preparing for your luxury booking with Isabella.</p>
+            </div>
+            
+            <div class="faq-container">
+                
+                <!-- FAQ Item 1 -->
+                <div class="faq-item reveal">
+                    <button class="faq-question-btn">
+                        <span>Do you travel to clients' venues or homes?</span>
+                        <span class="faq-question-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Yes, absolutely! We offer on-location makeup and hair services for weddings, editorial shoots, and group bookings. Travel fees depend on the location and distance from our main studio in New York. Contact us with your venue details to get a travel quote.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item reveal" style="transition-delay: 0.05s;">
+                    <button class="faq-question-btn">
+                        <span>How early in advance should I book my bridal makeup?</span>
+                        <span class="faq-question-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            We recommend booking bridal makeup 6 to 12 months in advance, especially if your wedding falls during the peak bridal season (April through October). This guarantees Isabella's personal availability for your ceremony date.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item reveal" style="transition-delay: 0.1s;">
+                    <button class="faq-question-btn">
+                        <span>What cosmetic brands and products do you use?</span>
+                        <span class="faq-question-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            To ensure high durability and a flawless cinematic finish, we use exclusive luxury cosmetic lines including Chanel, Dior Beauty, Charlotte Tilbury, Tom Ford, NARS, and Hourglass. All products are hypoallergenic and selected according to your specific skin type.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item reveal" style="transition-delay: 0.15s;">
+                    <button class="faq-question-btn">
+                        <span>Do you offer preview or trial makeup sessions?</span>
+                        <span class="faq-question-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Yes, we highly encourage booking a trial session! Bridal trials are conducted at our main studio and allow us to experiment with styles, lash weights, and lip shades to ensure your custom look is completely finalized before the wedding day.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ==========================================
+     * FOOTER
+     * ========================================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                
+                <!-- Footer Column 1: Brand Info -->
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span>✦</span> AURA
+                    </a>
+                    <p class="footer-brand-desc">Highlighting your natural elegance through modern beauty services, premium makeup artistry, and luxury aesthetics.</p>
+                    <div class="footer-socials">
+                        <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">📸</a>
+                        <a href="https://pinterest.com" class="footer-social-link" aria-label="Pinterest">📌</a>
+                        <a href="https://wa.me/15550199" class="footer-social-link" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                
+                <!-- Footer Column 2: Quick Links -->
+                <div>
+                    <h4 class="footer-links-title">Aura Studio</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#about">About Isabella</a></li>
+                        <li><a href="#services">Services Menu</a></li>
+                        <li><a href="#portfolio">Our Masterpieces</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Book Session</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Column 3: Contact details -->
+                <div>
+                    <h4 class="footer-links-title">Connect with Us</h4>
+                    <div class="footer-contact-info">
+                        <div class="footer-contact-item">
+                            <span class="footer-contact-icon">📍</span>
+                            <span class="footer-contact-text">
+                                <strong>Our Salon Studio</strong>
+                                742 Rosewood Ave, New York
+                            </span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="footer-contact-icon">💬</span>
+                            <span class="footer-contact-text">
+                                <strong>Call / WhatsApp</strong>
+                                +1 (555) 0199
+                            </span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="footer-contact-icon">✉</span>
+                            <span class="footer-contact-text">
+                                <strong>Direct Email</strong>
+                                appointments@aurastudio.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aura Beauty Studio. All Rights Reserved.</p>
+                <div class="footer-policy-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/15550199?text=Hi%20Aura%20Studio!%20I'd%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" class="whatsapp-float" aria-label="Chat with Aura on WhatsApp">
+        💬
+    </a>
+
+    <!-- Main JavaScript File -->
+    <script src="app.js"></script>
+</body>
+</html>
